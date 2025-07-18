@@ -65,7 +65,7 @@ export default function UnitPage() {
                         Here's a diagram to illustrate the proposed smart model for a humanoid robot:</p>
 
                     <div className="flex flex-col gap-4 w-3/6 mx-auto" id="diagram">
-                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/unit-8/diagram.png`} alt="Humanoid Robot Smart Model" width={400} height={400} className="h-auto mx-auto mb-4 rounded-md" />
+                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/module-1/unit-8/diagram.png`} alt="Humanoid Robot Smart Model" width={400} height={400} className="h-auto mx-auto mb-4 rounded-md" />
                     </div>
 
                     <p className="text-md text-muted-foreground mx-auto mb-4">

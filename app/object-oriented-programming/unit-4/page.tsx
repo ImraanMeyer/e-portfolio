@@ -79,7 +79,7 @@ export default function UnitPage() {
 
 
                     <div className="p-4">
-                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/unit-4/humanoid-activity-diagram.png`} alt="Humanoid Activity Diagram" width={400} height={400} className="m-auto" />
+                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/module-1/unit-4/humanoid-activity-diagram.png`} alt="Humanoid Activity Diagram" width={400} height={400} className="m-auto" />
                     </div>
 
                     <Callout>
@@ -90,7 +90,7 @@ export default function UnitPage() {
 
 
                     <div className="p-4">
-                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/unit-4/employees-class-diagram.png`} alt="Employees Class Diagram" width={400} height={400} className="m-auto" />
+                        <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/module-1/unit-4/employees-class-diagram.png`} alt="Employees Class Diagram" width={400} height={400} className="m-auto" />
                     </div>
 
                     <p className="text-md text-muted-foreground">

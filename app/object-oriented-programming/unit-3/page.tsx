@@ -95,7 +95,7 @@ export default function UnitPage() {
                             This section presents a state machine-inspired component diagram for a washing machine system. The structure draws from Figure 3-7 in Chapter 3 of The Unified Modeling Language Reference Manual (Second Edition), adapted to represent real-world interactions and internal components of a washing machine.</p>
 
                         <div className="p-4" id="washing-machine-component-diagram">
-                            <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/unit-3/washing-machine-component-diagram.png`} alt="Washing Machine Component Diagram" className="rounded-xl" width={800} height={600} />
+                            <NextImage src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/module-1/unit-3/washing-machine-component-diagram.png`} alt="Washing Machine Component Diagram" className="rounded-xl" width={800} height={600} />
                         </div>
 
                         <h3 className="text-lg font-bold mb-2" id="diagram-components">Diagram Components</h3>
