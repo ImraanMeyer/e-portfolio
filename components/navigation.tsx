@@ -12,9 +12,10 @@ import { ThemeToggle } from "@/components/theme-toggle";
 const courses = [
   {
     title: "Object Oriented Programming",
+    module: "object-oriented-programming",
     href: "/object-oriented-programming",
     icon: GraduationCap,
-    units: Array.from({ length: 12 }, (_, i) => ({
+    units: Array.from({ length: 9 }, (_, i) => ({
       title: `Unit ${i + 1}`,
       href: `/object-oriented-programming/unit-${i + 1}`,
     })),
@@ -37,16 +38,24 @@ const courses = [
 
       {
     title: "Secure Software Development",
+    module: "secure-software-development",
     href: "/secure-software-development",
     icon: GraduationCap,
     additional: [],
-    units: [
+    units: Array.from([1,2,3,4,5,6,7,8,10,11], (unit) => ({
+      title: `Unit ${unit}`,
+      href: `/secure-software-development/unit-${unit}`,
+    })),
+    assignments: [
       {
-        title: "Unit 1",
-        href: "/secure-software-development"
+        title: "Team Project: Design Document",
+        href: `/secure-software-development/assignment-1`
       },
-    ],
-    assignments: []
+      {
+        title: "Individual Project: Coding Output and Evidence of Testing",
+        href: `/secure-software-development/assignment-2`
+      }
+    ]
   },
   // {
   //   title: "Professional Development",
@@ -75,7 +84,8 @@ function NavItem({
   depth = 0,
   isExpanded = false,
   onToggle,
-  children 
+  children,
+  module 
 }: { 
   href: string;
   title: string;
@@ -84,13 +94,15 @@ function NavItem({
   isExpanded?: boolean;
   onToggle?: () => void;
   children?: React.ReactNode;
+  module?: string;
 }) {
   const pathname = usePathname();
   const unit = href.split("/").pop(); // /foo/bar -> bar
   const pathnameCopy = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname; // /foo/bar/ -> /foo/bar
+  const modulePath = pathnameCopy.split("/")[1]; // /foo/bar -> foo
   const pathnameUnit = pathnameCopy.split("/").pop(); // /foo/bar -> bar
 
-  const isActive = pathnameUnit === unit || (depth === 0 && pathname.startsWith(href));
+  const isActive = modulePath === module && (pathnameUnit === unit) ;
 
   const padding = depth * 12;
 
@@ -183,6 +195,7 @@ export function Navigation() {
                         href={assignment.href}
                         title={assignment.title}
                         depth={1}
+                        module={course.module}
                       />
                     ))}
                   {course.units?.map((unit) => (
@@ -191,6 +204,7 @@ export function Navigation() {
                       href={unit.href}
                       title={unit.title}
                       depth={1}
+                      module={course.module}
                     />
                   ))}
                     {/* {course.additional?.map((item) => (
