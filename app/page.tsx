@@ -8,21 +8,22 @@ const courses = [
     emoji: "🧠",
     title: "Object Oriented Programming",
     description: "Advanced programming paradigms and software design patterns",
-    progress: 80,
+    progress: 100,
     icon: Brain
   },
   {
     emoji: "🔐",
     title: "Secure Software Development",
     description: "Security principles and secure coding practices",
-    progress: 0,
+    progress: 82,
     icon: Code
   }
 ];
 
 const skills = [
-  "Python", "JavaScript", "TypeScript", "HTML", "CSS", "SCSS",
-  "React", "NodeJS", "Git", "MongoDB", "AWS", "PostgreSQL", "Docker", "NextJS", "Django"
+  "Python", "JavaScript", "TypeScript", "HTML", "CSS", "SCSS", 
+  "React", "NodeJS", "Git", "MongoDB", "AWS", "PostgreSQL", "Docker", "NextJS", "Django", 
+  "Flask", "Jupyter Notebook", "GitFlow"
 ];
 
 export default function Home() {

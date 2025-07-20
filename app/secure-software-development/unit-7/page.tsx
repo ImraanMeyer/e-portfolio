@@ -66,7 +66,7 @@ export default function UnitPage() {
                 <div className="space-y-4 w-5/6">
                     <div id="q1">
                         <h2 className="text-xl font-bold mb-2">What is an Ontology?</h2>
-                        <Callout>
+                        <Callout className="text-muted-foreground">
                             What do you understand about the ontology that has been presented
                             for your reading this week? Could you attempt to define an
                             ontology that would be relevant to the system that you are
