@@ -58,15 +58,14 @@ export default function UnitPage() {
           <div className="flex flex-col gap-4">
             <Callout
               title="Assignment Brief"
-              className="text-muted-foreground "
             >
-              <p className="mb-2">
+              <p className="mb-2 text-muted-foreground">
                 Carrying on from the Full Brief provided in Unit 6, this
                 assignment focuses on the second deliverable, a practical
                 development of your design from Unit 6.
               </p>
 
-              <p className="mb-2">
+              <p className="mb-2 text-muted-foreground">
                 The code should be developed using Python within any IDE. You
                 should submit a fully tested code set. Code should be organised
                 and documented according to Python’s PEP-8 style guide (van
@@ -78,80 +77,13 @@ export default function UnitPage() {
                 README file that documents how the application can be run.
               </p>
 
-              <p className="mb-2">
+              <p className="mb-2 text-muted-foreground">
                 The final submission builds on the work which you demonstrated
                 during the seminars.
               </p>
             </Callout>
           </div>
         </div>
-
-        {/* <div className="space-y-4 w-5/6" id="learning-outcomes">
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold mb-2">Learning Outcomes</h3>
-            <ul className="list-disc pl-4 pr-4 text-muted-foreground">
-              <li className="mb-2">
-                Designed and developed a secure CLI-based application in Python
-                aligned to the domain of online retail.
-              </li>
-
-              <li className="mb-2">
-                Applied object-oriented programming practices and followed PEP-8
-                conventions throughout the codebase.
-              </li>
-
-              <li className="mb-2">
-                Implemented security mechanisms such as authentication,
-                authorisation, input validation, data encryption, and logging,
-                in response to an attack surface including brute force, API
-                injection, and DoS threats.
-              </li>
-
-              <li className="mb-2">
-                Developed a testing suite including unit, system, and
-                integration tests, with additional use of linters for code
-                quality and security compliance.
-              </li>
-
-              <li className="mb-2">
-                Critically evaluated and documented the final implementation
-                using inline comments, demonstrations, and a README for
-                reproducibility.
-              </li>
-            </ul>
-          </div>
-        </div> */}
-
-        {/* <div className="space-y-4 w-5/6" id="reflection">
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold mb-2">Reflection</h3>
-            <p className="text-md text-muted-foreground">
-              This assignment was both collaborative and deeply technical,
-              requiring a holistic understanding of secure system design.
-              Working in a team to conceptualize and plan a secure CLI-based
-              e-commerce system provided insight into how application
-              architecture, cybersecurity, and user experience must align in
-              software projects.
-            </p>
-            <p className="text-md text-muted-foreground">
-              Our choice of an online retail platform brought clear challenges:
-              the system needed to facilitate sensitive operations such as user
-              authentication and order placement, while also defending against
-              prevalent cyber threats. Designing mitigations for brute-force and
-              API injection attacks required us to explore and implement
-              practical controls like bcrypt password hashing, PyOTP for
-              two-factor authentication, and strict input validation.
-            </p>
-
-            <p className="text-md text-muted-foreground">
-              The class diagram helped define system structure and object
-              relationships, while the misuse diagram encouraged us to think
-              from a hacker's perspective, reinforcing the value of threat
-              modeling. Personally, this assignment deepened my understanding of
-              balancing functional requirements with security imperatives.
-            </p>
-          </div>
-        </div> */}
 
         <div className="space-y-4 w-5/6" id="learning-outcomes">
           <div className="flex flex-col gap-2">

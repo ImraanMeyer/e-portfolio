@@ -39,9 +39,7 @@ export default function UnitPage() {
                     Secure Software Development
                   </BreadcrumbLink>
                   <ChevronRight className="h-4 w-4" />
-                  <BreadcrumbPage>
-                    Assignment 1: Team Project
-                  </BreadcrumbPage>
+                  <BreadcrumbPage>Assignment 1: Team Project</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
@@ -59,15 +57,14 @@ export default function UnitPage() {
 
         <div className="space-y-4 w-5/6" id="system-design">
           <div className="flex flex-col gap-4">
-            <Callout title="Assignment Brief" 
-              className="text-muted-foreground ">
-              <p className="mb-2">
+            <Callout title="Assignment Brief">
+              <p className="mb-2 text-muted-foreground">
                 For this assessment, you are advised to position yourself and
                 your team as software system designers that will ultimately
                 respond to a legitimate system user and a hacker.
               </p>
 
-              <p className="mb-2">
+              <p className="mb-2 text-muted-foreground">
                 You are required to firstly develop a secure application, for
                 either one of a school (Falana et al., 2021), online retailer
                 (D’Adamo et al., 2021), or the international space station
@@ -75,7 +72,7 @@ export default function UnitPage() {
                 tailored to the specific needs of the chosen domain.
               </p>
 
-              <p className="mb-2">Application requirements:</p>
+              <p className="mb-2 text-muted-foreground">Application requirements:</p>
 
               <Collapsible>
                 <CollapsibleTrigger>
