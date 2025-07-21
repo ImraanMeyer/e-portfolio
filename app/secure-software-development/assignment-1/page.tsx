@@ -59,7 +59,8 @@ export default function UnitPage() {
 
         <div className="space-y-4 w-5/6" id="system-design">
           <div className="flex flex-col gap-4">
-            <Callout title="Assignment Brief">
+            <Callout title="Assignment Brief" 
+              className="text-muted-foreground ">
               <p className="mb-2">
                 For this assessment, you are advised to position yourself and
                 your team as software system designers that will ultimately
