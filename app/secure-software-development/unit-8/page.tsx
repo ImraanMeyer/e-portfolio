@@ -163,8 +163,7 @@ export default function UnitPage() {
                         target="_blank"
                       >
                         https://kryptera.se/wp-content/uploads/2014/04/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf
-                      </a>{" "}
-                      (Accessed: 5 July 2025).
+                      </a>
                     </li>
                     <li className="text-md text-muted-foreground mb-4">
                       Krebs, B. (2014) True Goodbye: “Using TrueCrypt Is Not
@@ -174,8 +173,7 @@ export default function UnitPage() {
                         target="_blank"
                       >
                         https://krebsonsecurity.com/2014/05/true-goodbye-using-truecrypt-is-not-secure/
-                      </a>{" "}
-                      (Accessed: 5 July 2025).
+                      </a>
                     </li>
                     <li className="text-md text-muted-foreground mb-4">
                       TrueCrypt (2014). Available at:{" "}
@@ -184,8 +182,7 @@ export default function UnitPage() {
                         target="_blank"
                       >
                         https://truecrypt.sourceforge.net/
-                      </a>{" "}
-                      (Accessed: 5 July 2025).
+                      </a>
                     </li>
                   </ul>
                 </div>

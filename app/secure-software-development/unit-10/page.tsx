@@ -213,8 +213,7 @@ print(card_number.view(is_admin=False))  # Hides most digits
                                     target="_blank"
                                 >
                                     https://kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf
-                                </a>{" "}
-                                (Accessed: 14 July 2025).
+                                </a>
                             </li>
                         </ul>
                     </div>
