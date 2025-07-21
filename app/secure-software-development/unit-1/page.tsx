@@ -76,7 +76,7 @@ export default function UnitPage() {
                     <div className="flex flex-col gap-4 mt-4" id="references">
                         <h4 className="text-lg font-bold w-5/6 mb-4">References</h4>
                         <ul className="list-disc pl-6">
-                            <li className="text-md text-muted-foreground mb-4">OWASP, 2025. A07:2021 - Identification and Authentication Failures. [online] Available at: <a href="https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures" target="_blank">https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures</a> [Accessed 16 May 2025].</li>
+                            <li className="text-md text-muted-foreground mb-4">OWASP, 2025. A07:2021 - Identification and Authentication Failures. [online] Available at: <a href="https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures" target="_blank">https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures</a></li>
                         </ul>
                     </div>
                 </div>
