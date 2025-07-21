@@ -56,9 +56,7 @@ export default function UnitPage() {
 
         <div className="space-y-4 w-5/6" id="system-design">
           <div className="flex flex-col gap-4">
-            <Callout
-              title="Assignment Brief"
-            >
+            <Callout title="Assignment Brief">
               <p className="mb-2 text-muted-foreground">
                 Carrying on from the Full Brief provided in Unit 6, this
                 assignment focuses on the second deliverable, a practical
