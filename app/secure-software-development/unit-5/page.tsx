@@ -101,18 +101,18 @@ export default function UnitPage() {
 
                     <ul className="list-disc pl-6">
                         <li className="text-md text-muted-foreground mb-4">
-                            <span className="font-bold text-primary">Identifying Complex Code:</span> High Cyclomatic Complexity often
+                            <span className="text-primary">Identifying complex code:</span> High Cyclomatic Complexity often
                             correlates with intricate control flow, making the code harder to
                             understand and test. Complex code is more prone to errors, which
                             can be exploited as security vulnerabilities.
                         </li>
                         <li className="text-md text-muted-foreground mb-4">
-                            <span className="font-bold text-primary">Maintainability and Security:</span> Code with lower complexity is easier
+                            <span className="text-primary">Maintainability and security:</span> Code with lower complexity is easier
                             to maintain and audit, reducing the risk of introducing security
                             flaws during updates or modifications.
                         </li>
                         <li className="text-md text-muted-foreground mb-4">
-                            <span className="font-bold text-primary">Testing Efficiency:</span> Simplifying code by reducing its Cyclomatic
+                            <span className="text-primary">Testing efficiency:</span> Simplifying code by reducing its Cyclomatic
                             Complexity can enhance the effectiveness of security testing,
                             ensuring that all paths are adequately covered.
                         </li>
