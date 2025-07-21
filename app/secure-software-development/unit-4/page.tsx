@@ -109,22 +109,22 @@ export default function UnitPage() {
 
             <ol className="list-decimal pl-6">
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Catastrophic Backtracking:</span> As mentioned, certain regex patterns
+                <span className="text-primary">Catastrophic backtracking:</span> As mentioned, certain regex patterns
                 can lead to excessive backtracking, causing the system to hang
                 or crash.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Complexity and Readability:</span> Regex can be difficult to write,
+                <span className="text-primary">Complexity and readability:</span> Regex can be difficult to write,
                 read, and maintain, especially for those who are not familiar
                 with its syntax.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Security Vulnerabilities:</span> Poorly designed regex can introduce
+                <span className="text-primary">Security vulnerabilities:</span> Poorly designed regex can introduce
                 security vulnerabilities, such as ReDoS (Regular Expression
                 Denial of Service) attacks.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Performance Issues:</span> Inefficient regex patterns can slow down
+                <span className="text-primary">Performance issues:</span> Inefficient regex patterns can slow down
                 applications, especially when processing large inputs.
               </li>
             </ol>
@@ -137,25 +137,25 @@ export default function UnitPage() {
 
             <ol className="list-decimal pl-6">
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Simplify Regex Patterns:</span> Avoid using nested quantifiers and
+                <span className="text-primary">Simplify regex patterns:</span> Avoid using nested quantifiers and
                 overly complex patterns. Break down complex regex into simpler,
                 more manageable components.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Use Non-Greedy Quantifiers:</span> Non-greedy quantifiers can reduce
+                <span className="text-primary">Use non-greedy quantifiers:</span> Non-greedy quantifiers can reduce
                 the amount of backtracking by matching the shortest possible
                 string.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Limit Input Size:</span> Restrict the length of input strings to reduce
+                <span className="text-primary">Limit input size:</span> Restrict the length of input strings to reduce
                 the potential for excessive backtracking.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Testing and Profiling:</span> Regularly test and profile regex patterns
+                <span className="text-primary">Testing and profiling:</span> Regularly test and profile regex patterns
                 to identify and mitigate performance bottlenecks.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Use Libraries and Tools:</span> Leverage libraries and tools designed
+                <span className="text-primary">Use libraries and tools:</span> Leverage libraries and tools designed
                 to optimize and validate regex patterns.
               </li>
             </ol>
@@ -176,21 +176,21 @@ export default function UnitPage() {
 
             <ul className="list-disc pl-6">
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Input Validation:</span> Ensure that user inputs conform to expected
+                <span className="text-primary">Input validation:</span> Ensure that user inputs conform to expected
                 formats, preventing injection attacks and other malicious
                 inputs.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Pattern Matching:</span> Detect and block known malicious patterns in
+                <span className="text-primary">Pattern matching:</span> Detect and block known malicious patterns in
                 data, such as SQL injection attempts or cross-site scripting
                 (XSS) payloads.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Log Analysis:</span> Parse and analyze logs to identify suspicious
+                <span className="text-primary">Log analysis:</span> Parse and analyze logs to identify suspicious
                 activities or patterns indicative of security breaches.
               </li>
               <li className="text-md text-muted-foreground">
-                <span className="font-bold">Data Sanitization:</span> Cleanse data by removing or escaping
+                <span className="text-primary">Data sanitization:</span> Cleanse data by removing or escaping
                 potentially harmful characters before processing or storage.
               </li>
             </ul>
